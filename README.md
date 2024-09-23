@@ -3,4 +3,4 @@
 
 Bom dia caros alunos.
 
-<a href="https://rbs0719.github.io/Html-Css/">Executar o exercício 001</a>
+<a href="https://rbs0719.github.io/Html-Css/Exrcícios/exe001">Executar o exercício 001</a>
