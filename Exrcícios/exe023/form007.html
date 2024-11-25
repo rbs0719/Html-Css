@@ -7,13 +7,13 @@
 </head>
 <body>
     <h1>Exemplo de formulário</h1>
-    <form action="cadastro.php" method="get" autocomplete="on"></form>
+    <form action="cadastro.php" method="post" autocomplete="on"></form>
     <p>
         <label for="iest">Estado</label>
         <select name="estado" id="iest">
 
         <option value="" selected> --- Escolha ---</option>
-        <optgroup label="Regiao Nordeste">
+        <optgroup label="Regiao ">
             <option value="Ma">Maranhão</option>
             <option value="Pe">Pernambuco</option>
             <option value="Rn">Rio Grande do Norte</option>
@@ -30,7 +30,7 @@
     <label for="iprof">Profissão</label>
     <input type="text" name="prof" id="iprof" list="lstprof">
     <datalist id="lstprof">
-        <option value="ADM">Administrador</option>
+        <option>Administrador</option>
         <option value="CONT">Contador</option>
         <option value="DEV">Desenvolvedor</option>
         <option value="PROF">Professor</option>
